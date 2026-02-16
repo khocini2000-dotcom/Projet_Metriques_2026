@@ -11,7 +11,7 @@ def hello_world():
 @app.get("/paris")
 def api_paris():
     
-    url = "https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m"
+    url = "https://api.open-meteo.com/v1/forecast?latitude=49.9&longitude=2.3&hourly=temperature_2m"
     response = requests.get(url)
     data = response.json()
 
