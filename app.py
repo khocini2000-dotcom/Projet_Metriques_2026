@@ -35,8 +35,8 @@ def mongraphique():
 def mongraphique2():
     return render_template("graphique2.html")
 @app.route("/contact")
-def mapagedecontact():
-    return render_template("mapagedecontact.html")
+def pagedecontact():
+    return render_template("pagedecontact.html")
 
 # Ne rien mettre après ce commentaire
     
